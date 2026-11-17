@@ -49,6 +49,15 @@ It reads mouse events through a macOS event tap, changes the ones you configured
 
 ## Install
 
+### Download the prebuilt app
+
+1. Download `Mouse-Up.zip` from the [latest release](https://github.com/CarlosAllberto/mouse-up/releases/latest).
+2. Unzip it and move `Mouse Up.app` to `/Applications`.
+3. Open the app and allow Accessibility access when it asks.
+
+> [!NOTE]
+> The app is not notarized by Apple yet, so macOS blocks it the first time you open it. Go to **System Settings > Privacy & Security** and click **Open Anyway**.
+
 ### Build from source
 
 Requirements:

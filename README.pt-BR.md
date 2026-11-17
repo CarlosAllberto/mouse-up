@@ -49,6 +49,15 @@ Ele lê os eventos do mouse por um event tap do macOS, altera os que você confi
 
 ## Instalação
 
+### Baixar o app pronto
+
+1. Baixe o `Mouse-Up.zip` da [última release](https://github.com/CarlosAllberto/mouse-up/releases/latest).
+2. Descompacte e mova o `Mouse Up.app` para `/Applications`.
+3. Abra o app e permita o acesso de Acessibilidade quando ele pedir.
+
+> [!NOTE]
+> O app ainda não é notarizado pela Apple, então o macOS bloqueia na primeira vez que você abre. Vá em **Ajustes do Sistema > Privacidade e Segurança** e clique em **Abrir Mesmo Assim**.
+
 ### Compilar do código
 
 Requisitos:
