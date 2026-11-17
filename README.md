@@ -17,7 +17,7 @@ English • <a href="README.pt-BR.md">Português</a>
 
 </div>
 
-Mouse Up is a free menu bar app that makes a regular mouse feel closer to a trackpad. It adds smooth scrolling with momentum and lets you turn the side buttons into shortcuts: media keys, Mission Control, Spaces, keyboard shortcuts and more.
+Mouse Up is a free menu bar app that makes a regular mouse feel closer to a trackpad. It adds smooth scrolling with momentum and lets you turn the side buttons into shortcuts: control your music, Mission Control, Spaces, keyboard shortcuts and more.
 
 It reads mouse events through a macOS event tap, changes the ones you configured and lets everything else through. Trackpads and the Magic Mouse are never touched.
 
@@ -35,6 +35,7 @@ It reads mouse events through a macOS event tap, changes the ones you configured
 
 ## Features
 
+- **Music controls on your mouse:** play/pause, volume up and down, next and previous track. Hold a side button and scroll to change the volume, or double click to skip a song. Works with Music, Spotify and music playing in the browser.
 - **Smooth scrolling:** each wheel step becomes a short animation with momentum, like a trackpad. Smoothness **Off**, **Regular** or **High**.
 - **Speed and acceleration:** **Slow**, **Medium** or **Fast**, and fast consecutive steps scroll further.
 - **Precise scrolling:** turning the wheel slowly gives small, exact steps. You can turn this off.
