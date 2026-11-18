@@ -38,6 +38,7 @@ It reads mouse events through a macOS event tap, changes the ones you configured
 - **Music controls on your mouse:** play/pause, volume up and down, next and previous track. Hold a side button and scroll to change the volume, or double click to skip a song. Works with Music, Spotify and music playing in the browser.
 - **Smooth scrolling:** each wheel step becomes a short animation with momentum, like a trackpad. Smoothness **Off**, **Regular** or **High**.
 - **Speed and acceleration:** **Slow**, **Medium** or **Fast**, and fast consecutive steps scroll further.
+- **Simulate trackpad:** scrolling reaches apps as trackpad scrolling, with rubber banding and swipe gestures. Turn it off to keep smooth scrolling without trackpad behavior.
 - **Precise scrolling:** turning the wheel slowly gives small, exact steps. You can turn this off.
 - **Reverse direction:** vertical and horizontal separately, independent of the system setting.
 - **Hold a key while scrolling:** <kbd>⌥</kbd> precise, <kbd>⇧</kbd> horizontal, <kbd>⌘</kbd> zoom, <kbd>⌃</kbd> fast. Each key can be changed or turned off.

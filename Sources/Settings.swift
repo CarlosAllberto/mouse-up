@@ -31,6 +31,7 @@ struct ScrollSettings: Codable, Equatable {
     var zoomModifier: ModifierKey = .command
     var swiftModifier: ModifierKey = .control
     var preciseWhenSlow = true // a lone, slow wheel tick scrolls a small precise step
+    var simulateTrackpad = true // smooth scroll events carry trackpad phases and momentum
 }
 
 extension ScrollSettings {
@@ -45,7 +46,7 @@ extension ScrollSettings {
         try load(.reverseVertical, &reverseVertical); try load(.reverseHorizontal, &reverseHorizontal)
         try load(.preciseModifier, &preciseModifier); try load(.horizontalModifier, &horizontalModifier)
         try load(.zoomModifier, &zoomModifier); try load(.swiftModifier, &swiftModifier)
-        try load(.preciseWhenSlow, &preciseWhenSlow)
+        try load(.preciseWhenSlow, &preciseWhenSlow); try load(.simulateTrackpad, &simulateTrackpad)
     }
 }
 

@@ -135,6 +135,11 @@ final class ScrollEngine {
         guard let e = CGEvent(scrollWheelEvent2Source: nil, units: .pixel, wheelCount: 2,
                               wheel1: dy, wheel2: dx, wheel3: 0) else { return }
         e.flags = flags
+        // Off: plain mouse pixel events, so apps skip trackpad behavior (rubber banding, swipe gestures).
+        guard SettingsStore.shared.settings.scroll.simulateTrackpad else {
+            if dx != 0 || dy != 0 { EventTap.post(e) } // phase-only markers mean nothing without phases
+            return
+        }
         e.setIntegerValueField(.scrollWheelEventIsContinuous, value: 1)
         e.setIntegerValueField(.scrollWheelEventScrollPhase, value: Int64(scroll?.rawValue ?? 0))
         e.setIntegerValueField(.scrollWheelEventMomentumPhase, value: Int64(momentum.rawValue))

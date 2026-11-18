@@ -38,6 +38,7 @@ Ele lê os eventos do mouse por um event tap do macOS, altera os que você confi
 - **Controle de música no mouse:** play/pause, aumentar e abaixar o volume, passar e voltar música. Segure um botão lateral e role para mudar o volume, ou dê duplo clique para pular a música. Funciona com o Música, o Spotify e música tocando no navegador.
 - **Rolagem suave:** cada passo da rodinha vira uma animação curta com inércia, como no trackpad. Suavidade **Off**, **Regular** ou **High**.
 - **Velocidade e aceleração:** **Slow**, **Medium** ou **Fast**, e passos rápidos seguidos rolam mais longe.
+- **Simular trackpad:** a rolagem chega aos apps como rolagem de trackpad, com efeito elástico e gestos de deslizar. Desligue para manter a rolagem suave sem o comportamento de trackpad.
 - **Rolagem precisa:** girar a rodinha devagar dá passos pequenos e exatos. Dá para desligar.
 - **Inverter direção:** vertical e horizontal separados, independente do ajuste do sistema.
 - **Segurar uma tecla ao rolar:** <kbd>⌥</kbd> precisa, <kbd>⇧</kbd> horizontal, <kbd>⌘</kbd> zoom, <kbd>⌃</kbd> rápida. Cada tecla pode ser trocada ou desligada.

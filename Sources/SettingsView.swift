@@ -247,6 +247,8 @@ private struct ScrollingTab: View {
                 .pickerStyle(.segmented)
                 Toggle("Acceleration", isOn: $store.settings.scroll.acceleration)
                 Toggle("Precise when scrolling slowly", isOn: $store.settings.scroll.preciseWhenSlow)
+                Toggle("Simulate trackpad", isOn: $store.settings.scroll.simulateTrackpad)
+                    .help("Smooth scrolling behaves like a trackpad: momentum, rubber banding and swipe gestures in apps.")
             }
             Section("Direction") {
                 Toggle("Reverse vertical scrolling", isOn: $store.settings.scroll.reverseVertical)
